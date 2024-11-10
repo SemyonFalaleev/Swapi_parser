@@ -25,7 +25,6 @@ def serializer(json_data):
         url=json_data.get('url'),
         created=json_data.get('created'),
         edited=json_data.get('edited')
-
     )
     
     return swapi_person
